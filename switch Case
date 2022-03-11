@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+int ch;
+printf("Enter a value between 0 to 1:");
+scanf("%d",&ch);
+switch (ch)
+{
+case 0:
+printf("0\n");
+case 1:
+printf("1\n");
+default :
+printf("invalid");
+}
+}
